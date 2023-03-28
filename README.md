@@ -2,7 +2,6 @@
 ## # 💫 About Me:
 I'm currently working on my personal website.
 
-
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.com/JustcallmeCat#4877) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/catherine-hilton-61105b224/) 
 
