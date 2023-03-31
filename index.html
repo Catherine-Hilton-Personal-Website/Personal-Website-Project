@@ -9,17 +9,17 @@
     <link rel="stylesheet" href="personal-website.css">
 </head>
 
-<body> 
+<body>
 
-    <div class="logo-img"> </div> <img src="logo.png" alt="logo-img" width="150" height="150"> </div>
+    <div id="logo-img"> <img src="logo.png" alt="logo-img" width="150" height="150"> </div>
 
     <header>
         <ul class="tab">
             <section class="li">
-            <li><a href="index.html" class="tablinks" onclick="openPage(event, 'Home')">Home</a></li>
-            <li><a href="about.html" class="tablinks" onclick="openPage(event, 'About')">About</a></li>
-            <li><a href="portfolio.html" class="tablinks" onclick="openPage(event, 'Portfolio')">Portfolio</a></li>
-            </ul>
+                <li><a href="index.html" class="tablinks" onclick="openPage(event, 'Home')">Home</a></li>
+                <li><a href="about.html" class="tablinks" onclick="openPage(event, 'About')">About</a></li>
+                <li><a href="portfolio.html" class="tablinks" onclick="openPage(event, 'Portfolio')">Portfolio</a></li>
+        </ul>
 
         <div id="Home" class="tabcontent">
             <h3>Home</h3>
@@ -40,14 +40,20 @@
     <main>
         <h1>Web Development Student</h1>
         <img class="profile-img" src="Me.jpg" width="250" height="350">
-        <h2 class="description">
-            "Curious with a love of learning. Interested in growing as a developer. I prefer to do more backend
-            developing, enjoy researching and fixing problematic code."
-        </h2>
-        <h4 class="quote">
-            "When we seek to discover the best in others, we somehow bring out the best in ourselves."
-            <br> —William Arthur Ward.
-        </h4>
+
+        <div id="description" class="description">
+            <p>
+                "Curious with a love of learning. Interested in growing as a developer. I prefer to do more backend
+                developing, enjoy researching and fixing problematic code."
+            </p>
+        </div>
+
+        <div id="quote" class="quote">
+            <p>
+                "When we seek to discover the best in others, we somehow bring out the best in ourselves."
+                <br> —William Arthur Ward.
+            </p>
+        </div>
     </main>
     <script src="javascript.js"></script>
 </body>
