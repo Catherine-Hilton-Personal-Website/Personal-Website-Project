@@ -1,38 +1,69 @@
+body {
+    background-color: black;
+}
+
+h2 {
+    float: left;
+    border: 1px solid darkred;
+    color: bisque;
+    text-align: center;
+    box-sizing: content-box;
+
+
+}
+
+section {
+    color: bisque;
+}
+
+
+
+
 /* Style the list */
 ul.tab {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    border: 1px solid darkred;
+    background-color: black;
+
 }
+
+h1 {
+    text-align: center;
+    color: bisque;
+}
+
 
 /* Float the list items side by side */
 ul.tab li {
     float: left;
 }
 
+
 /* Style the links inside the list items */
 ul.tab li a {
     display: inline-block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     transition: 0.3s;
     font-size: 17px;
+    background-color: black;
 }
 
 /* Change background color of links on hover */
 ul.tab li a:hover {
-    background-color: #ddd;
+    background-color: maroon;
 }
 
 /* Create an active/current tablink class */
 ul.tab li a:focus,
 .active {
-    background-color: #ccc;
+    background-color: black;
+
 }
 
 /* Style the tab content */
@@ -46,11 +77,23 @@ ul.tab li a:focus,
 /* Style Quote*/
 
 .quote {
-    font-family: 'Satisfy', cursive;
-    font-weight: 100;
-    color: white;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-weight: 80;
+    color: rgb(192, 212, 212);
     text-shadow: 1px 1px 2px black;
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
     margin-top: 2em;
+}
+
+.profile-img {
+    border-radius: 50%;
+    display: block;
+    margin-left: 80%;
+    margin-right: auto;
+    width: 20%;
+}
+
+h5 {
+    color: bisque;
 }

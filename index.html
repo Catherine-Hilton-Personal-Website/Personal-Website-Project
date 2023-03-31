@@ -9,16 +9,17 @@
     <link rel="stylesheet" href="personal-website.css">
 </head>
 
-<body>
+<body> 
 
-    <span class="name">Catherine Hilton</span>
+    <div class="logo-img"> </div> <img src="logo.png" alt="logo-img" width="150" height="150"> </div>
 
     <header>
         <ul class="tab">
+            <section class="li">
             <li><a href="index.html" class="tablinks" onclick="openPage(event, 'Home')">Home</a></li>
             <li><a href="about.html" class="tablinks" onclick="openPage(event, 'About')">About</a></li>
             <li><a href="portfolio.html" class="tablinks" onclick="openPage(event, 'Portfolio')">Portfolio</a></li>
-        </ul>
+            </ul>
 
         <div id="Home" class="tabcontent">
             <h3>Home</h3>
@@ -38,14 +39,14 @@
     </header>
     <main>
         <h1>Web Development Student</h1>
-        <img src="Me.jpg" width="250" height="400">
-        <h2>
+        <img class="profile-img" src="Me.jpg" width="250" height="350">
+        <h2 class="description">
             "Curious with a love of learning. Interested in growing as a developer. I prefer to do more backend
             developing, enjoy researching and fixing problematic code."
         </h2>
         <h4 class="quote">
             "When we seek to discover the best in others, we somehow bring out the best in ourselves."
-            <br> "—William Arthur Ward."
+            <br> —William Arthur Ward.
         </h4>
     </main>
     <script src="javascript.js"></script>
