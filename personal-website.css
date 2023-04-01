@@ -126,16 +126,55 @@ ul.tab li a:focus,
 /*media links*/
 
 /*Personality Characteristics*/
+.traits {
+    float: left;
+    border: 1px solid darkred;
+    color: bisque;
+    text-align: center;
+    box-sizing: content-box;
+
+}
+
+.traits-2 {
+    float: left;
+    border: 1px solid darkred;
+    color: bisque;
+    text-align: center;
+    box-sizing: content-box;
+
+}
 
 /*Hobbies*/
+.hobbies {
+    float: left;
+    border: 1px solid darkred;
+    color: bisque;
+    text-align: center;
+    box-sizing: content-box;
 
-/*Outdoors*/
+}
+
 
 /*Acts of service*/
+.service {
+    float: left;
+    border: 1px solid darkred;
+    color: bisque;
+    text-align: center;
+    box-sizing: content-box;
 
+}
 /*images*/
 
 /*background*/
+.background {
+    float: left;
+    border: 1px solid darkred;
+    color: bisque;
+    text-align: center;
+    box-sizing: content-box;
+
+}
 
 /*About page Footer*/
 
@@ -153,9 +192,23 @@ ul.tab li a:focus,
 /*Projects*/
 
 /*Zoo Website*/
+.zoo {
 
+    float: left;
+    border: 1px solid darkred;
+    color: bisque;
+    text-align: center;
+    box-sizing: content-box;
+    
+}
 /*Vault*/
-
+.vault {
+    float: left;
+    border: 1px solid darkred;
+    color: bisque;
+    text-align: center;
+    box-sizing: content-box;
+}
 /*images*/
 
 /*Footer*/
