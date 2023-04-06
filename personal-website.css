@@ -1,12 +1,61 @@
-/*index.html*/
-body {
-    background-color: black;
+
+/*for small screens*/
+@media screen and (max-width: 639px) {
+
+    .column {
+    width: 100%;
+    
+}
+.row { 
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.socials{
+    display: flex;
+}
 }
 
+
+/*for medium screens*/
+@media screen and (min-width:640px) and (max-width: 1279px) {
+    
+}
+
+/*for large screens*/
+@media screen and (min-width: 1280px) {
+    
+}
+
+
+
+
+
+/*index.html*/
+.bg-black {
+    background-color: #000000;
+}
+html {
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+    ;
+}
+header {
+    
+}
+body {
+    background-color: black;
+
+}
+main {
+    
+}
 /*logo*/
 
 /*tabs*/
 /* Style the list */
+
+
 ul.tab {
     list-style-type: none;
     margin: 0;
@@ -51,23 +100,61 @@ ul.tab li a:focus,
 
 /*media links*/
 
-.fa {
+ul.socials li {
+    list-style-type: none;
+    text-decoration: none;
+    vertical-align: top;
+    flex-direction: column;
+    padding: 12px;
+    margin: 20px;
+    /* float: right; */
+
+    
+}
+
+.bi {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    position: absolute;
     float: right;
     padding: 20px;
     font-size: 30px;
-    width: 30px;
+    vertical-align: top;
+    flex-direction: column;
     text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-  }
-  .fa:hover {
-    opacity: 0.7;
+        border-radius: 50%;
+    
 }
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
+
+.bi-discord {
+    color: aquamarine;
+    
+}
+.bi-github {
+  
+    color: fuchsia;
+}
+
+.bi-linkedin {
+    
+    color: royalblue;
+    
+}
+
+
+       
+      
+      
+      a:hover, a:active {
+        background-color: darkred;
+        color: white;
+      }
+
+
+
+
+
   
  /*style heading 1*/
   h1 {
@@ -126,31 +213,73 @@ ul.tab li a:focus,
 /*media links*/
 
 /*Personality Characteristics*/
+
+h5 {
+text-align: center;
+font-size: x-large;
+
+}
+h6 {
+    text-align: center;
+    font-size: larger;
+}
+#Personality {
+    display: flex;
+    justify-content: row space-between;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.listed {
+
+    border: 2px solid aquamarine;
+    float: left;
+    text-align: center;
+    font-size: large;
+    padding: 20px;
+    margin: auto;
+    color: bisque;
+    
+    
+}
+.listed-2 {
+
+    border: 2px solid aquamarine;
+    
+    font-size: large;
+    padding: 20px;
+    margin: auto;
+    color: bisque;
+    text-align: center;
+    float: left;
+}
+
+
+
 .traits {
-    float: left;
-    border: 1px solid darkred;
+    display: flex;
+    justify-content: space-between;
     color: bisque;
     text-align: center;
-    box-sizing: content-box;
+    object-position: inherit;
+    
+    
 
 }
 
-.traits-2 {
-    float: left;
-    border: 1px solid darkred;
-    color: bisque;
-    text-align: center;
-    box-sizing: content-box;
 
-}
 
 /*Hobbies*/
 .hobbies {
     float: left;
-    border: 1px solid darkred;
+    border: 3px solid darkred;
     color: bisque;
     text-align: center;
     box-sizing: content-box;
+    font-size: larger;
+    position: relative;
+    
 
 }
 
@@ -162,17 +291,38 @@ ul.tab li a:focus,
     color: bisque;
     text-align: center;
     box-sizing: content-box;
+    font-size: larger;
 
 }
 /*images*/
 
+#hobbies img {
+
+    float: right;
+    position: relative;
+    border: 4px solid greenyellow;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    
+}
+#community img {
+    float: left;
+    position: relative;
+    border: 4px solid greenyellow;
+    padding: 10px;
+    margin: auto;
+    display: block;
+}
+
 /*background*/
-.background {
+#background {
     float: left;
     border: 1px solid darkred;
     color: bisque;
     text-align: center;
     box-sizing: content-box;
+    font-size: larger;
 
 }
 
@@ -192,7 +342,7 @@ ul.tab li a:focus,
 /*Projects*/
 
 /*Zoo Website*/
-.zoo {
+#zoo-project {
 
     float: left;
     border: 1px solid darkred;
@@ -202,18 +352,21 @@ ul.tab li a:focus,
     
 }
 /*Vault*/
-.vault {
+.safe {
     float: left;
     border: 1px solid darkred;
     color: bisque;
     text-align: center;
     box-sizing: content-box;
+    font-size: larger;
 }
 /*images*/
 
 /*Footer*/
 
-
+h4 {
+    font-size: x-large;
+}
 
 
 
@@ -223,6 +376,7 @@ h2 {
     color: bisque;
     text-align: center;
     box-sizing: content-box;
+    font-size: larger;
 
 
 }
