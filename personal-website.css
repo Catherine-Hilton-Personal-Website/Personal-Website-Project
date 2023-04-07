@@ -24,6 +24,13 @@
 
 /*for large screens*/
 @media screen and (min-width: 1280px) {
+/* .column-sm { display: contents;
+} */
+ul.socials {
+    list-style-type: none;
+    float: right;
+    padding-right: 40px;
+}
     
 }
 
@@ -40,16 +47,12 @@ html {
     -webkit-text-size-adjust: 100%;
     ;
 }
-header {
-    
-}
+
 body {
     background-color: black;
+    font-size: 2em;
+}
 
-}
-main {
-    
-}
 /*logo*/
 
 /*tabs*/
@@ -123,8 +126,11 @@ ul.socials li {
     vertical-align: top;
     flex-direction: column;
     text-align: center;
-        border-radius: 50%;
+     border-radius: 50%;
     
+}
+.row-2 {
+    display: contents;
 }
 
 .bi-discord {
@@ -163,8 +169,12 @@ ul.socials li {
 }
 
 /*style description*/
-.description {
+
+.row #row-description {
+
     display: flex;
+    color: bisque;
+    /* display: flex;
     position: absolute;
     top: 70%;
     left: 5%;
@@ -174,27 +184,50 @@ ul.socials li {
     margin-inline-start: 10px;
     margin-inline-end: 50px;
     color: bisque;
-    font-size: 1.5em;
+    font-size: 1.5em; */
+}
+#column-description {
+    padding-top: 100px;
+    
+}
+.row{
+    display: flex;
+}
+.column {
+    flex: 50%;
 }
 
 /*profile img*/
 .profile-img {
     border-radius: 10%;
-    display: block;
-    margin-left: 80%;
-    margin-right: auto;
-    width: 20%;
+    display: flex;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* width: 20%; */
+    width: 250px;
+    height: 350px;
+    align-items: center;
+    
+}
+#profile-img {
+    padding-left: 250px;
 }
 
 /*Quote*/
-.quote {
+ .quote {
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
     font-weight: 80;
     color: rgb(192, 212, 212);
     text-shadow: 1px 1px 2px black;
-    font-size: 2em;
+    font-size: 1em;
     text-align: center;
     margin-top: 2em;
+    padding-top: 20px;
+
+}
+
+#personal {
+    padding-top: 50px;
 }
 /*Footer*/
 
@@ -381,9 +414,9 @@ h2 {
 
 }
 
-section {
+/* section {
     color: bisque;
-}
+} */
 
 
 
