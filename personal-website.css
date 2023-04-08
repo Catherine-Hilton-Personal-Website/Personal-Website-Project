@@ -1,37 +1,37 @@
-
 /*for small screens*/
 @media screen and (max-width: 639px) {
 
     .column {
-    width: 100%;
-    
-}
-.row { 
-    display: flex;
-    flex-wrap: wrap;
+        width: 100%;
 
-}
-.socials{
-    display: flex;
-}
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .socials {
+        display: flex;
+    }
 }
 
 
 /*for medium screens*/
-@media screen and (min-width:640px) and (max-width: 1279px) {
-    
-}
+@media screen and (min-width:640px) and (max-width: 1279px) {}
 
 /*for large screens*/
 @media screen and (min-width: 1280px) {
-/* .column-sm { display: contents;
+
+    /* .column-sm { display: contents;
 } */
-ul.socials {
-    list-style-type: none;
-    float: right;
-    padding-right: 40px;
-}
-    
+    ul.socials {
+        list-style-type: none;
+        float: right;
+        padding-right: 40px;
+    }
+
 }
 
 
@@ -42,6 +42,7 @@ ul.socials {
 .bg-black {
     background-color: #000000;
 }
+
 html {
     box-sizing: border-box;
     -webkit-text-size-adjust: 100%;
@@ -49,7 +50,7 @@ html {
 }
 
 body {
-    background-color: black;
+    background-color: #000000;
     font-size: 2em;
 }
 
@@ -68,10 +69,12 @@ ul.tab {
     background-color: black;
 
 }
+
 /* Float the list items side by side */
 ul.tab li {
     float: left;
 }
+
 /* Style the links inside the list items */
 ul.tab li a {
     display: inline-block;
@@ -83,15 +86,18 @@ ul.tab li a {
     font-size: 17px;
     background-color: black;
 }
+
 /* Change background color of links on hover */
 ul.tab li a:hover {
     background-color: maroon;
 }
+
 /* Create an active/current tablink class */
 ul.tab li a:focus,
 .active {
     background-color: black;
 }
+
 /* Style the tab content */
 .tabcontent {
     display: none;
@@ -112,7 +118,7 @@ ul.socials li {
     margin: 20px;
     /* float: right; */
 
-    
+
 }
 
 .bi {
@@ -126,44 +132,47 @@ ul.socials li {
     vertical-align: top;
     flex-direction: column;
     text-align: center;
-     border-radius: 50%;
-    
+    border-radius: 50%;
+
 }
+
 .row-2 {
     display: contents;
 }
 
 .bi-discord {
     color: aquamarine;
-    
+
 }
+
 .bi-github {
-  
+
     color: fuchsia;
 }
 
 .bi-linkedin {
-    
+
     color: royalblue;
-    
+
 }
 
 
-       
-      
-      
-      a:hover, a:active {
-        background-color: darkred;
-        color: white;
-      }
+
+
+
+a:hover,
+a:active {
+    background-color: darkred;
+    color: white;
+}
 
 
 
 
 
-  
- /*style heading 1*/
-  h1 {
+
+/*style heading 1*/
+h1 {
     text-align: center;
     color: bisque;
 }
@@ -186,13 +195,16 @@ ul.socials li {
     color: bisque;
     font-size: 1.5em; */
 }
+
 #column-description {
     padding-top: 100px;
-    
+
 }
-.row{
+
+.row {
     display: flex;
 }
+
 .column {
     flex: 50%;
 }
@@ -207,14 +219,15 @@ ul.socials li {
     width: 250px;
     height: 350px;
     align-items: center;
-    
+
 }
+
 #profile-img {
     padding-left: 250px;
 }
 
 /*Quote*/
- .quote {
+.quote {
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
     font-weight: 80;
     color: rgb(192, 212, 212);
@@ -229,6 +242,7 @@ ul.socials li {
 #personal {
     padding-top: 50px;
 }
+
 /*Footer*/
 
 
@@ -246,16 +260,69 @@ ul.socials li {
 /*media links*/
 
 /*Personality Characteristics*/
+#personality-heading.row {
+    display: flex;
+    height: fit-content;
+    width: 56;
+    justify-content: center;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
-h5 {
-text-align: center;
-font-size: x-large;
+
+}
+
+#traits.row {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+#listed.column {
+    
+    font-size: large;
+    text-align: left;
+    padding: 20px;
+    margin: auto;
+    color: bisque;
 
 }
 h6 {
-    text-align: center;
-    font-size: larger;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+    color: steelblue;
+    text-align: left;
 }
+
+#listed-2.column {
+    
+    font-size: large;
+    text-align: left;
+    padding: 20px;
+    margin: auto;
+    color: bisque;
+    padding-left: 110px;
+}
+
+.listed {
+    list-style-position: inside;
+
+}
+.listed-2 {
+    list-style-position: inside;
+}
+
+
+h5 {
+    text-align: center;
+    font-size: x-large;
+
+}
+
+
+
 #Personality {
     display: flex;
     justify-content: row space-between;
@@ -264,29 +331,8 @@ h6 {
 
 }
 
-.listed {
 
-    border: 2px solid aquamarine;
-    float: left;
-    text-align: center;
-    font-size: large;
-    padding: 20px;
-    margin: auto;
-    color: bisque;
-    
-    
-}
-.listed-2 {
 
-    border: 2px solid aquamarine;
-    
-    font-size: large;
-    padding: 20px;
-    margin: auto;
-    color: bisque;
-    text-align: center;
-    float: left;
-}
 
 
 
@@ -296,26 +342,52 @@ h6 {
     color: bisque;
     text-align: center;
     object-position: inherit;
-    
-    
+
+
 
 }
+#nature-img {
+    width: 900px;
+	height: 500px;
+	border-radius: 50%;
+    display:inline-block;
+   align-self:center;
+   text-align:center;
+   position: relative;
 
-
-
-/*Hobbies*/
+}
+/* Hobbies */
 .hobbies {
-    float: left;
-    border: 3px solid darkred;
     color: bisque;
     text-align: center;
-    box-sizing: content-box;
-    font-size: larger;
-    position: relative;
-    
+    font-size: large;
+    position: absolute;
+
 
 }
+  .warm{
+    filter: sepia(50%) contrast(150%) saturate(200%) brightness(100%) hue-rotate(-15deg);
+  }
+.image-slider {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+}
 
+p {
+    position: absolute;
+    justify-content: center;
+    color: deepskyblue;
+    text-shadow: 1px 1px black;
+   top: 35%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: flex;
+   font-size: x-large;
+   font-weight: 400;
+}
 
 /*Acts of service*/
 .service {
@@ -327,22 +399,16 @@ h6 {
     font-size: larger;
 
 }
-/*images*/
 
-#hobbies img {
+img  {
+    width: 200px;
+	height: 200px;
+	border-radius: 50%;
+} 
 
-    float: right;
-    position: relative;
-    border: 4px solid greenyellow;
-    padding: 10px;
-    margin: auto;
-    display: flex;
-    
-}
 #community img {
     float: left;
     position: relative;
-    border: 4px solid greenyellow;
     padding: 10px;
     margin: auto;
     display: block;
@@ -351,7 +417,6 @@ h6 {
 /*background*/
 #background {
     float: left;
-    border: 1px solid darkred;
     color: bisque;
     text-align: center;
     box-sizing: content-box;
@@ -382,8 +447,9 @@ h6 {
     color: bisque;
     text-align: center;
     box-sizing: content-box;
-    
+
 }
+
 /*Vault*/
 .safe {
     float: left;
@@ -393,6 +459,7 @@ h6 {
     box-sizing: content-box;
     font-size: larger;
 }
+
 /*images*/
 
 /*Footer*/
