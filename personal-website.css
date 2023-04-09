@@ -390,29 +390,18 @@ p {
 }
 
 /*Acts of service*/
-.service {
-    float: left;
-    border: 1px solid darkred;
-    color: bisque;
-    text-align: center;
-    box-sizing: content-box;
-    font-size: larger;
+#service {
+   color: goldenrod;
 
 }
 
-img  {
-    width: 200px;
-	height: 200px;
-	border-radius: 50%;
-} 
-
-#community img {
+/* #community img {
     float: left;
     position: relative;
     padding: 10px;
     margin: auto;
     display: block;
-}
+} */
 
 /*background*/
 #background {
@@ -420,9 +409,74 @@ img  {
     color: bisque;
     text-align: center;
     box-sizing: content-box;
-    font-size: larger;
+    font-size: large;
+    display: flex;
 
 }
+
+#goodies-img {
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    vertical-align: middle;
+    align-content: center;
+    
+}
+.goodies-img {
+
+    --b: 5px;  /* the border thickness */
+  --d: 20px; /* the distance from the edge */
+  --o: 15px; /* the offset on hover */
+  --s: 1;    /* the direction of the hover effect (+1 or -1)*/
+  
+  --_d: calc(var(--d) + var(--s)*1em);
+  --_g: calc(100% - 2*(var(--_d) + var(--b)));
+  --_m:
+    conic-gradient(from 90deg at var(--_d) var(--_d),#0000 25%,#000 0)
+     0 0/calc(100% - var(--_d)) calc(100% - var(--_d)),
+    linear-gradient(#000 0 0) 50%/var(--_g) var(--_g) no-repeat;
+  -webkit-mask: var(--_m);
+          mask: var(--_m);
+  font-size: 0;
+  cursor: pointer;
+  transition: .35s;
+}
+img:hover {
+  font-size: var(--o);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  grid-auto-flow: column;
+  grid-gap: 25px;
+  background: black;
+}
+
+
+#community {
+    display: flex;
+    top: 80px;
+    position: relative;
+
+}
+#service {
+    font-size: large;
+    color: bisque;
+
+}
+#background-details {
+    top: 80px;
+    position: relative;
+    bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+      
 
 /*About page Footer*/
 
@@ -443,6 +497,7 @@ img  {
 #zoo-project {
 
     float: left;
+    justify-content: center;
     border: 1px solid darkred;
     color: bisque;
     text-align: center;
